@@ -12,7 +12,37 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "sunrise" #"default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
+###############################################
+# --- List of links in the navigation bar --- #
+###############################################
+
+navbar-links:
+ About: about
+ Dungeons & Dragons:
+ - Existential Heroism World: https://www.worldanvil.com/w/existential-heroism-institute-xheroism
+ Resources:
+ - Reading List: reading-list
+ Donate: https://www.paypal.com/donate/?hosted_button_id=MNF8GTHFHF5YC
+ Contact: contact  
+  
+
+################
+# --- Logo --- #
+################
+
+# Image to show in the navigation bar - works best with a square image
+# Remove this parameter if you don't want an image in the navbar
+# Example avatar: /assets/img/EHI_Circle_Logo.pn
+
+# By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
+round-avatar: false
+
+# If you want to have an image logo in the top-left corner instead of having the title of the website,
+# then specify the following parameter
+#title-img: /path/to/image
+
 
 # Site Settings
 locale                   : "en-US"
